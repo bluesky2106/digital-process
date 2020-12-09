@@ -1,5 +1,5 @@
 import matplotlib.pyplot as plt
-from base.complex_valued import *
+from complex_valued import *
 
 def test_complex_valued():
     x, n = complex_valued(2, 3, 0, 10)

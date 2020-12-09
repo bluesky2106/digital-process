@@ -1,5 +1,5 @@
 import matplotlib.pyplot as plt
-from base.periodic import *
+from periodic import *
 
 def test_periodic():
     x = np.array([1,2,3,4,5])

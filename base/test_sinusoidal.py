@@ -1,5 +1,5 @@
 import matplotlib.pyplot as plt
-from base.sinusoidal import *
+from sinusoidal import *
 
 def test_sinusoidal():
     x1, n = sin(2, 0.5*np.pi, 0, 0, 10)

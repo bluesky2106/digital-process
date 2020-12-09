@@ -1,5 +1,5 @@
 import matplotlib.pyplot as plt
-from base.real_valued import *
+from real_valued import *
 
 def test_real_valued():
     x, n = real_valued(0.9, 0, 10)

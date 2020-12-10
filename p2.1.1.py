@@ -52,6 +52,6 @@ plt.xticks(range(np.amin(m) - 1, np.amax(m) + 1))
 plt.xlim(np.amin(m) - 1, np.amax(m) + 1)
 plt.xlabel('n')
 plt.ylabel('x')
-plt.title('x(n')
+plt.title('x(n)')
 
 plt.show()

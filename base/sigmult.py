@@ -11,8 +11,6 @@ def sigmult(x1, n1, x2, n2):
     n = np.arange(minN, maxN+1)
     y1 = np.zeros((len(n)))
     y2 = np.zeros((len(n)))
-    print(y1)
-    print(y2)
     j = 0
     for i in n:
         idx1 = np.where(n1==i)

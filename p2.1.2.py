@@ -2,9 +2,6 @@ import matplotlib.pyplot as plt
 import numpy as np
 from base.impseq import *
 from base.conv_m import *
-# from base.sigshift import *
-# from base.sigadd import *
-
 
 delta, m = impseg(0, -10, 10)
 h = np.exp(0.5 * m)

@@ -10,8 +10,6 @@ def test_sigadd():
     minN = min(np.amin(n1), np.amin(n2))
     maxN = max(np.amax(n1), np.amax(n2))
     x, n = sigadd(x1, n1, x2, n2)
-    print(x)
-    print(n)
 
     # x1, n1
     plt.subplot(2, 2, 1)    

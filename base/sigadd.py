@@ -1,5 +1,4 @@
 import numpy as np 
-import matplotlib.pyplot as plt
 
 # implements y(n) = x1(n)+x2(n)
 # y=sum sequence over n, which includes n1 and n2

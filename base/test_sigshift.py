@@ -10,7 +10,7 @@ def test_sigshift():
     # x, m
     plt.subplot(1, 2, 1)    
     plt.bar(m,x, width = 0.1)
-    plt.xlim(np.amin(m) - 1, np.amax(m) + 1)
+    plt.xticks(range(np.amin(m) - 1, np.amax(m) + 1))
     plt.xlabel('m')
     plt.ylabel('x')
     plt.title('x(m)')

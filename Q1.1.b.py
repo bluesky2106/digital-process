@@ -1,8 +1,5 @@
 import matplotlib.pyplot as plt
 import numpy as np
-from base.impseq import *
-from base.sigshift import *
-from base.sigadd import *
 
 begin = -150
 end = 150

@@ -1,7 +1,5 @@
 import matplotlib.pyplot as plt
 import numpy as np
-from base.impseq import *
-from base.conv_m import *
 
 n = np.arange(-10, 11)
 x = np.zeros(len(n))
